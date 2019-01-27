@@ -419,10 +419,6 @@ header {
     margin-bottom: 15px;
 }
 
-.box {
-    margin-left: 1%;
-}
-
 .city-feature {
     margin-bottom: 5px;
 }
@@ -447,7 +443,6 @@ header {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
@@ -456,7 +451,7 @@ header {
 
 blockquote {
     padding: 2%;
-    font-style: italic;
+    font-style: italic; 
     line-height: 145%;
     position: relative;
     margin-top: 40px;
@@ -483,7 +478,6 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
-
 
 /* ----------------------------------------------- */
 /* SIGN UP */
