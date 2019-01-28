@@ -607,14 +607,12 @@ footer {
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited, 
+.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
     border: 0;
     color: #888;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
@@ -622,43 +620,40 @@ footer {
     color: #ddd;
 }
 
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
 .social-links li a:link,
 .social-links li a:visited {
     font-size: 160%;
 }
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-    -webkit-transition: color 0.2s;
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram {
     transition: color 0.2s;
 }
 
-.ion-social-facebook:hover {
+.ion-logo-facebook:hover {
     color: #3b5998;
 }
 
-.ion-social-twitter:hover {
-    color: #00aced;
+.ion-logo-twitter:hover {
+    color: #55acee;
 }
 
-.ion-social-googleplus:hover {
+.ion-logo-googleplus:hover {
     color: #dd4b39;
 }
 
-.ion-social-instagram:hover {
-    color: #517fa4;
+.ion-logo-instagram:hover {
+    color: #e95950;
 }
-
-
-footer p {
-    color: #888;
-    text-align: center;
-    margin-top: 20px;
-}
-
-
 
 
 /* ----------------------------------------------- */
